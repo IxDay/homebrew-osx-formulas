@@ -2,9 +2,11 @@
 
 ## How do I install these formulae?
 
-`brew install backmarket/osx-formulas/<formula>`
+Since we are using a private repository to store our formulas you will have
+to run the following command to set it up in brew:
+`brew tap backmarket/osx-formulas git@github.com:BackMarket/homebrew-osx-formulas.git`
 
-Or `brew tap backmarket/osx-formulas` and then `brew install <formula>`.
+Then you should be able to run `brew install <formula>`. For e.g: `brew install linux-on-mac`
 
 ## Documentation
 
